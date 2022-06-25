@@ -1,0 +1,83 @@
+.latest-number{
+    margin-top: 100px;
+}
+.bno{
+    border : 1px solid #dadada;
+    border-radius: 50%;
+}
+
+.lotto-circle{
+    display: table;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 15px;
+    background-color : #FFC54D;
+}
+.value{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.latest-number-list{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.latest-number-box{
+    display: flex;
+}
+.bno-list{
+    display: flex;
+}
+
+.latest-number-search{
+    width: 250px;
+    height: 30px;
+    border:1px solid #dadada;
+    border-radius: 3px;
+}
+.latest-number-button{
+    width: 50px;
+    height: 34px;
+    border:1px solid #dadada;
+    border-radius: 3px;
+}
+.round-num-list{
+    padding : 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.round-num-list span:last-child{
+    color: red;
+}
+
+
+.main-navbar {
+    display: flex;
+}
+.main-navbar ul{
+    display:flex;
+    list-style:none;
+    padding:15px;
+}
+.main-navbar li{
+    padding:10px;
+}
+.main-navbar a{
+    color:black;
+    text-decoration: none;
+}
+#table{
+ width: 30%;
+}
+#numTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

@@ -1,15 +1,15 @@
 import React from "react";
 import './LatestNumber';
 
-const NumberSearch = (props) => {
-    const {setKeyword, handleOnClick, searchToggle, roundLottoNumberList, title} = props;
+const LatestNumberSearch = (props) => {
+    const {setRound, handleOnClick, searchToggle, roundLottoNumberList} = props;
     return(
         <div>
-            <h3 className= "latest-number-search-title">{title}</h3>
+            <h3 className= "latest-number-search-title">최근 N회차 검색</h3>
             <div>
                 <input className="latest-number-search"
                        placeholder="최근 회차를 입력해주세요."
-                       onChange={(e) => setKeyword(e.target.value)}
+                       onChange={(e) => setRound(e.target.value)}
                 />
                 <button className="latest-number-button" onClick={handleOnClick}>검색</button>
             </div>
@@ -39,4 +39,4 @@ const NumberSearch = (props) => {
     )
 }
 
-export default NumberSearch;
+export default LatestNumberSearch;
